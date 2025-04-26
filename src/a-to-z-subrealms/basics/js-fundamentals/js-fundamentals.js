@@ -93,3 +93,83 @@
    console.log(++counter); //returns new value 3
 
    //Bitwise Operator: &&, ||, !
+
+// v) comparisons:
+   console.log(5>6,5<6,5!=6,5==5);
+   //strict equality:
+   console.log('5'== 5); //loose equality check which cause implicit type change. 
+   console.log('5' === 5); //strict equality check which prevents from implicit type change.
+
+// vi) Conditional branching:
+   // if else block:
+   // null,undefined,'',NaN,0 are falsy values
+   
+   let ageOfDriver = 20;
+
+   if(ageOfDriver === 20) {
+      console.log('best driver')
+   } else if(ageOfDriver > 18) { // once the uper statement is true it will not execute the next statement it will stops executing once it finds the first condition is true
+      console.log('he can dive')
+   } else {
+      console.log('cannot drive not safe')
+   }
+
+// vii) Logical operator:
+
+   //|| OR, && And , ! Not operator;
+
+   let isSunny = true;
+   let isWeekend = false;
+
+   if(isSunny || isWeekend) {
+      console.log('go beach')
+   }
+
+   if(isSunny && isWeekend) {
+      console.log('relaxed')
+   }
+
+   if(!isSunny) {
+      console.log(isWeekend)
+   }
+
+   // Nullish coaliscing operator: ??
+   let isUsername = null;
+   console.log(isUsername ?? 'Vishal') // null/undefined if isUsername than it will give you defined value 
+
+// viii) Loops  -> While and For:
+   // -While loop:
+
+   let i = 0;
+
+   while(i<=3) {
+      console.log(i);
+      i++
+   }
+
+   //for loop:
+
+   for(let i=0; i<3; i++) {
+      console.log(i,'for')
+   }
+   /*Run begin
+      → (if condition → run body and run step)
+      → (if condition → run body and run step)
+      → (if condition → run body and run step)
+      → ... */
+
+// ix) The switch statement:
+   let btnText = 'cancel';
+   switch(btnText) {
+      case 'cancel' :
+         console.log('cancel event');
+         break;
+
+      case 'submit' :
+         console.log('submit event');
+         break;
+
+      case 'reset' : 
+      console.log('resetting event');
+      break;
+   }
