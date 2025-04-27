@@ -1,5 +1,0 @@
-1. folders in src are treated as modules 
-2. atoz realm -> basics
-3.leetcode problems 
-4.readme file gives the brief structure of the dsa realm 
-5.rough txt file dont commit this to main

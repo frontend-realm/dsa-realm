@@ -1,7 +1,39 @@
-# dsa-realm
+# 🌟 DSA Realm
 
-I)(A to Z - Subrealm) -> Module
+Welcome to the **DSA Realm** — a structured journey through Data Structures and Algorithms!
 
-A) Basics
-1) JS-Fundamentals
-i)Variables And Use Stricts:
+This repository is organized into **Subrealms**, where each subrealm is treated as a **module**. Dive deep, one concept at a time.
+
+---
+
+## 📚 Table of Contents
+
+### I) A to Z DSA - Subrealm → Module
+
+#### A) Basics
+
+- **1) JavaScript Fundamentals**
+  - i) Variables and 'use strict'
+  - ii) Data Types
+  - iii) Type Conversions
+  - iv) Basic Operators
+  - v) Comparisons
+  - vi) Conditional Branching (`if`, `?`)
+  - vii) Logical Operators
+  - viii) Loops (`while`, `for`)
+  - ix) Switch Statement
+  - x) Functions
+  - xi) Function Expressions
+  - xii) Arrow Functions
+
+---
+
+## 📂 Folder Structure
+
+```text
+DSA-Realm/
+│
+├──src/
+│   ├── a-to-z-subrealms/
+│   │   ├── basics/
+│   │   │  ├── js-fundamentals/

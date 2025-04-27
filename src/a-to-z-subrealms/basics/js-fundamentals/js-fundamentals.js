@@ -173,3 +173,71 @@
       console.log('resetting event');
       break;
    }
+
+// x) Functions:
+   //Function Declaration:
+   function showErrorMessage() { // Decalaaring a function
+      console.log('error in your programm')
+   }
+
+   showErrorMessage(); // calling a function
+
+   //Local Variable:
+   function calValue(a) {
+      let b = 6; // b is local variable inside a functional scope
+      console.log(a+b)
+   }
+
+   calValue(11)
+
+   //Setting Default Value in function:
+   function calSiblingsAge(sister,brother) {
+      console.log(sister+brother)
+   }
+
+   calSiblingsAge(12) // if one argument is sent and the function was accepting another the other argument is sent as undefined so brother will be undefined. value will be NaN.
+   //to prevent this we set default values.
+   function calClassTopper(std1,std2) { // but this is old method std2 = 5 in parameter 
+      std2 = std2 ?? 5
+      console.log(std1+std2);
+   }
+
+   calClassTopper(1);
+
+   // Returning A value: Function Returning something
+   function calAgeOfSchool(std1,std2) {
+      return std1+std2;
+   }
+   console.log(calAgeOfSchool(2,3))
+
+   function ageNumber() {}
+   console.log(ageNumber()) // no returning statement just a normal function declaration will give you undefned.
+
+   function ageNumebr2(){
+      return;
+   }
+   console.log(ageNumebr2()) //return statement but no values is returned so it will be giving undefined
+   
+   // and one thing if there is return statement the function exits that time and didnt execute later
+   function checkAge(age) {
+      if(age>18) {
+         return; // as it sees return and condition is satisfied or simple return it will stops execution later and immediately exit from the function
+      }
+
+      console.log('executes further')
+   }
+   checkAge(20)
+
+   function checkReturnExample() {
+      return;
+      console.log('please return')
+   }
+
+//xi) Function Expressions:
+   let subsstract = function (a,b) {
+      return a-b;
+   }
+   let copySubstract = subsstract
+   console.log(copySubstract(1,2))
+
+//xii) Arrow Functions:
