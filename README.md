@@ -25,7 +25,9 @@ This repository is organized into **Subrealms**, where each subrealm is treated 
   - x) Functions
   - xi) Function Expressions
   - xii) Arrow Functions
-
+- **2) Time and Space Complexity**
+  - i) Time Complexity
+  - ii) Space Complexity
 ---
 
 ## 📂 Folder Structure
@@ -36,4 +38,7 @@ DSA-Realm/
 ├──src/
 │   ├── a-to-z-subrealms/
 │   │   ├── basics/
-│   │   │  ├── js-fundamentals/
+│   │   │   ├── js-fundamentals/
+|   |   |   |    ├──js-fundamentals.js
+|   |   |   ├── time-space-complexity
+|   |   |   |    ├──time-space-complexity.js
