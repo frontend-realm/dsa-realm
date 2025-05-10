@@ -28,6 +28,7 @@ This repository is organized into **Subrealms**, where each subrealm is treated 
 - **2) Time and Space Complexity**
   - i) Time Complexity
   - ii) Space Complexity
+- **3) How To Approach A programme**
 ---
 
 ## 📂 Folder Structure
@@ -42,3 +43,5 @@ DSA-Realm/
 |   |   |   |    ├──js-fundamentals.js
 |   |   |   ├── time-space-complexity
 |   |   |   |    ├──time-space-complexity.js
+|   |   |   ├── approach-programme
+|   |   |   |    ├──approach-programme.js
