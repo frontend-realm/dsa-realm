@@ -29,6 +29,9 @@ This repository is organized into **Subrealms**, where each subrealm is treated 
   - i) Time Complexity
   - ii) Space Complexity
 - **3) How To Approach A programme**
+- **4) Basic Of Array and Strings**
+  - i) Arrays
+  - ii) Strings
 ---
 
 ## 📂 Folder Structure
@@ -45,3 +48,5 @@ DSA-Realm/
 |   |   |   |    ├──time-space-complexity.js
 |   |   |   ├── approach-programme
 |   |   |   |    ├──approach-programme.js
+|   |   |   ├── array-strings
+|   |   |   |    ├──array-strings.js
