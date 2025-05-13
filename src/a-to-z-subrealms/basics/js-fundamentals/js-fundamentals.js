@@ -67,6 +67,12 @@
    //Boolean Conversion -> Converting Values to Numbers 
    console.log(Boolean(undefined), Boolean(NaN), Boolean(''), Boolean(null), Boolean(1));
 
+   //Question
+   let input ='as';
+   let toNumber = +input;
+   let exactString = isNaN(toNumber) ? input : toNumber
+   console.log(typeof toNumber, toNumber, exactString)
+
 // iv) Basic Operators and Maths:
 
    //string Concatenation:

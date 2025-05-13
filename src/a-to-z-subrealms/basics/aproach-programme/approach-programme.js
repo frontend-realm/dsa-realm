@@ -77,3 +77,82 @@ function twoSum(nums, target) {
    * - Understand → Dry run → Strategy → Pseudocode → Implement → Test → Analyze
    */
   
+
+/**************************************
+  🔁 FOR LOOP DOCUMENTATION TEMPLATE
+**************************************/
+
+/* 
+  📍 Step 1: Analyze the Question
+  -------------------------------
+  Ask: What do we need to do?
+  Example: Print numbers from 1 to 3
+
+  ✍️ Rough Input: none
+  ✅ Expected Output: 1 2 3
+*/
+
+
+/* 
+  📍 Step 2: Build Rough Logic
+  ----------------------------
+  We need:
+  - a starting point ➝ let i = 1
+  - a condition to continue ➝ i <= 3
+  - an increment ➝ i++
+
+  So our logic becomes:
+  for (let i = 1; i <= 3; i++) {
+    print i
+  }
+*/
+
+
+/*
+  📍 Step 3: Dry Run / Debug the Logic
+  ------------------------------------
+  Let's debug with actual iterations:
+
+  🔄 Iteration 1:
+    i = 1; check i <= 3 ➝ ✅ true
+    print 1
+    i++ ➝ i = 2
+
+  🔄 Iteration 2:
+    i = 2; check i <= 3 ➝ ✅ true
+    print 2
+    i++ ➝ i = 3
+
+  🔄 Iteration 3:
+    i = 3; check i <= 3 ➝ ✅ true
+    print 3
+    i++ ➝ i = 4
+
+  🔄 Iteration 4:
+    i = 4; check i <= 3 ➝ ❌ false
+    loop stops
+*/
+
+
+/*
+  📘 Final Enhanced Code
+  -----------------------
+*/
+
+  for (let i = 1; i <= 3; i++) {
+    console.log(i); // Prints: 1, 2, 3
+  }
+
+
+/*
+  📈 Enhancements / Learnings:
+  ----------------------------
+  ✅ Use when:
+  - You know how many times to run the loop
+  ✅ You can control:
+  - Initialization
+  - Condition
+  - Increment/Decrement
+  ✅ Replace `i++` with `i += 2` for skipping values
+  ✅ Can be used to loop through arrays, strings, ranges
+*/

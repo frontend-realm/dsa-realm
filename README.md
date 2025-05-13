@@ -32,6 +32,8 @@ This repository is organized into **Subrealms**, where each subrealm is treated 
 - **4) Basic Of Array and Strings**
   - i) Arrays
   - ii) Strings
+- **5) Patterns**
+  - i) Pattern-1
 ---
 
 ## 📂 Folder Structure
@@ -42,11 +44,8 @@ DSA-Realm/
 ├──src/
 │   ├── a-to-z-subrealms/
 │   │   ├── basics/
-│   │   │   ├── js-fundamentals/
-|   |   |   |    ├──js-fundamentals.js
+│   │   │   ├── js-fundamentals
 |   |   |   ├── time-space-complexity
-|   |   |   |    ├──time-space-complexity.js
 |   |   |   ├── approach-programme
-|   |   |   |    ├──approach-programme.js
 |   |   |   ├── array-strings
-|   |   |   |    ├──array-strings.js
+|   |   |   ├── Patterns
