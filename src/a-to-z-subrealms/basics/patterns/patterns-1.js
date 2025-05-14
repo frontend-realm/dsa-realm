@@ -1,4 +1,12 @@
 //Pattern-1
+    //Important: Trick To Solve Any Patterns
+    /*
+        -patterns helps you to solve the matrices question and 2-D Array
+        -step1- no. of times outer loop should run = no. lines or no. of rows
+        -step2- how many times inner loop should run will decalre by in each row how many columns should there
+              - how many columns should be there in a given row, inner loop should run
+        -step3- what u need to print 
+    */
 
     //patter1-Question:
     /*

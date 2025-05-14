@@ -34,6 +34,7 @@ This repository is organized into **Subrealms**, where each subrealm is treated 
   - ii) Strings
 - **5) Patterns**
   - i) Pattern-1
+  - ii) Pattern-2
 ---
 
 ## 📂 Folder Structure
@@ -48,4 +49,4 @@ DSA-Realm/
 |   |   |   ├── time-space-complexity
 |   |   |   ├── approach-programme
 |   |   |   ├── array-strings
-|   |   |   ├── Patterns
+|   |   |   ├── patterns
